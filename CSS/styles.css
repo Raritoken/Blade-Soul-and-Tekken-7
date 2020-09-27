@@ -64,7 +64,9 @@ body{
     padding: 1vw 1vw;
     background-color: black;
     margin-right: 0vw;
-    width: 79vw;
+    width: 1050px;
+    margin-right: 0px;
+    margin-left: 0px;
     color: red;
     display: block;
     animation: motion 15000ms 1s infinite;
@@ -82,6 +84,7 @@ body{
 }
 .IMG{
     text-align: center;
+    width: auto;
     color: red;
     -webkit-text-stroke: 1px black;
     text-shadow: 1px 1px black;
@@ -91,7 +94,23 @@ body{
     font-size: 36pt;
     background: rgba(122, 20, 206, 0.664);
 }
-@media only screen and (max-width: 1920px){
+.KuniTitle{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36pt;
+    color: rgb(120, 0, 190);
+    -webkit-text-stroke: 1px 1px black;
+    text-shadow: 2px 2px black;
+}
+.Kuni{ 
+    width: 960px; 
+    height: 540px; 
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+
+@media only screen and (max-width: 800px){
     .Title{
         font-size: max-width/53.3pt;
         text-shadow: 0.5px 0.5px black;
@@ -117,7 +136,7 @@ body{
         height: width*0.9;
     }
     .scrlIMG{
-        width: 200vw;
+        width: max-width/1.83px;
         left: 0vw;
     }
     @keyframes motion{
@@ -130,5 +149,9 @@ body{
         75%{transform: translateX(20vw);} 
         85%{transform: translateX(20vw);} 
         100%{transform: translateX(38vw);}
+    }
+    .Kuni{
+        width: (max-width/2)px;
+        height: (max-width/16*9/2)px;
     }
 }
