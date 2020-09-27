@@ -1,5 +1,6 @@
 body{
     background: cornflowerblue;
+    overflow-x: hidden;
 }
 .Title{
     margin-left: 50%;
@@ -149,6 +150,9 @@ body{
         75%{transform: translateX(20vw);} 
         85%{transform: translateX(20vw);} 
         100%{transform: translateX(38vw);}
+    }
+    .KuniTitle{
+        font-size: max-width/53.3pt;
     }
     .Kuni{
         width: (max-width/2)px;
