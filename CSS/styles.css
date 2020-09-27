@@ -54,6 +54,7 @@ body{
     padding: 1vw 2vw;
 }
 .img1, .img2, .img3{
+    overflow-x: hidden;
     height: 315px;
     width: 350px;
 }
@@ -108,6 +109,12 @@ body{
     height: 540px; 
     margin-left: 50%;
     transform: translateX(-50%);
+}
+.ArtKuni{
+    margin-left: 5%; 
+    margin-right: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
 }
 
 
