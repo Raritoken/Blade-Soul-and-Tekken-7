@@ -143,7 +143,6 @@ body{
         height: width*0.9;
     }
     .scrlIMG{
-        width: max-width/1.83px;
         left: 0vw;
     }
     @keyframes motion{
