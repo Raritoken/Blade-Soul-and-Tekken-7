@@ -148,6 +148,7 @@ body{
         font-size: max-width/960pt;
     }
     .img1, .img2, .img3{
+        overflow-x: hidden;
         width: max-width/3;
         height: width*0.9;
     }
