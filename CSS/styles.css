@@ -41,7 +41,7 @@ body{
 .txt{
     font-family: serif;
     font-size: 16pt;
-    opacity: 0;
+    visibility: hidden;
     text-align: center;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -141,6 +141,7 @@ body{
         width: max-width*1.75;
     }
     .txt{
+        visibility: visible;
         font-size: max-width/960pt;
     }
     .img1, .img2, .img3{

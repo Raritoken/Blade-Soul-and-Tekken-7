@@ -7,19 +7,19 @@ function BnS() {
 function unhide() {
     var x = document.getElementById("txt");
     if (x.onpointerenter) {
-        x.style.opacity = 0;
+        x.style.visibility = "hidden";
     }
     else {
-        x.style.opacity = 1;
+        x.style.visibility = "visible";
     }
 }
 function hide() {
     var x = document.getElementById("txt");
     if (x.onpointerleave) {
-        x.style.opacity = 0;
+        x.style.visibility = "hidden";
     }
     else {
-        x.style.opacity = 0;
+        x.style.visibility = "hidden";
     }
 }
 function Stats() {
