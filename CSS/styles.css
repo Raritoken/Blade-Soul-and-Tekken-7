@@ -123,6 +123,9 @@ body{
 
 
 @media only screen and (max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
     .Title{
         font-size: max-width/53.3pt;
         text-shadow: 0.5px 0.5px black;
