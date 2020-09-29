@@ -144,7 +144,7 @@ body{
         visibility: visible;
         font-size: max-width/960pt;
     }
-    .img1, .img2, .img3{
+    /*.img1, .img2, .img3{
         overflow-x: hidden;
         width: max-width/3;
         height: width*0.9;
@@ -162,13 +162,11 @@ body{
         75%{transform: translateX(20vw);} 
         85%{transform: translateX(20vw);} 
         100%{transform: translateX(38vw);}
-    }
+    }*/
     .KuniTitle{
         font-size: max-width/53.3pt;
     }
     .KuniVid{
-        margin-left: 48%;
-        margin-right: 35%;
         width: 600px;
         height: 338px;
     }
