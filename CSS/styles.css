@@ -115,6 +115,11 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-size: 14pt;
 }
+.KuniFace{
+    width: 960px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
 
 
 @media only screen and (max-width: 800px){
@@ -162,5 +167,8 @@ body{
     .Kuni{
         width: (max-width/2)px;
         height: (max-width/16*9/2)px;
+    }
+    .KuniFace{
+        width: 450px;
     }
 }
