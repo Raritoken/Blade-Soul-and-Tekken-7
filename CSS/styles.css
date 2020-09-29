@@ -79,12 +79,11 @@ body{
     border-radius: 20px;
     padding: 1vw 1vw;
     background-color: black;
-    margin-right: 0vw;
     margin-right: 0px;
     margin-left: 0px;
     color: red;
     display: block;
-    animation: motion 15000ms 1s infinite;
+    /*animation: motion 15000ms 1s infinite;*/
 }
 @keyframes motion{
     0%{transform: translateX(38vw);}
