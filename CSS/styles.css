@@ -153,23 +153,15 @@ body{
     .scrlIMG{
         left: 0vw;
     }
-    @keyframes motion{
-        0%{transform: translateX(38vw);}
-        10%{transform: translateX(38vw);}
-        25%{transform: translateX(20vw);}
-        35%{transform: translateX(20vw);}
-        50%{transform: translateX(2vw);}
-        60%{transform: translateX(2vw);}  
-        75%{transform: translateX(20vw);} 
-        85%{transform: translateX(20vw);} 
-        100%{transform: translateX(38vw);}
-    }
     .KuniTitle{
         font-size: max-width/53.3pt;
     }
     .KuniVid{
         width: 600px;
         height: 338px;
+    }
+    .ArtKuni{
+        margin-right: 15%;
     }
     .KuniFace{
         width: 450px;
