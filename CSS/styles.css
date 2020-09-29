@@ -1,6 +1,7 @@
 body{
     background: cornflowerblue;
     overflow-x: hidden;
+    margin-right: none;
 }
 .Title{
     margin-left: 50%;
