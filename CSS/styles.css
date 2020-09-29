@@ -54,7 +54,7 @@ body{
     border-radius: 20px;
     padding: 1vw 2vw;
 }
-.IMG{
+/*.IMG{
     text-align: center;
     width: auto;
     color: red;
@@ -95,7 +95,7 @@ body{
     75%{transform: translateX(20vw);} 
     85%{transform: translateX(20vw);} 
     100%{transform: translateX(38vw);}
-}
+}*/
 .KuniTitle{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
