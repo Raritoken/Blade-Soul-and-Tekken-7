@@ -68,10 +68,21 @@ body{
     font-size: 36pt;
     background: rgba(122, 20, 206, 0.664);
 }
-.img1, .img2{
+.img1, .img2, .img3{
     overflow-x: hidden;
-    height: 315px;
-    width: 350px;
+    height: auto;
+    width: 31vw;
+    animation: motion 15000ms infinite alternate;
+}
+@keyframes motion{
+    0%{transform: translateX(65vw);}
+    14.3%{transform: translateX(35vw);}
+    28.6%{transform: translateX(35vw);}  
+    42.9%{transform: translateX(2vw);} 
+    56.2%{transform: translateX(2vw);} 
+    70.5%{transform: translateX(-35vw);}
+    84.8%{transform: translateX(-35vw);} 
+    100%{transform: translateX(-65vw);}
 }
 .scrlIMG{
     border: 5px solid red;
@@ -130,9 +141,9 @@ body{
         visibility: visible;
         width: 65%;
     }
-    .img1, .img2{
+    .img1, .img2, .img3{
         overflow-x: hidden;
-        width: 300px;
+        width: 31vw;
         height: 300/16*9px;
     }
     .KuniTitle{
