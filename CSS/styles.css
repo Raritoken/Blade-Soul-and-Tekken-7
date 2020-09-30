@@ -83,18 +83,8 @@ body{
     margin-left: 0px;
     color: red;
     display: block;
+    overflow-x: hidden;
     /*animation: motion 15000ms 1s infinite;*/
-}
-@keyframes motion{
-    0%{transform: translateX(38vw);}
-    10%{transform: translateX(38vw);}
-    25%{transform: translateX(20vw);}
-    35%{transform: translateX(20vw);}
-    50%{transform: translateX(2vw);}
-    60%{transform: translateX(2vw);}  
-    75%{transform: translateX(20vw);} 
-    85%{transform: translateX(20vw);} 
-    100%{transform: translateX(38vw);}
 }
 .KuniTitle{
     text-align: center;
@@ -112,7 +102,7 @@ body{
 }
 .ArtKuni{
     margin-left: 15%; 
-    margin-right: 35%;
+    margin-right: 15%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14pt;
 }
