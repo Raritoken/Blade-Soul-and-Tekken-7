@@ -1,42 +1,10 @@
-function BnS() {
-    var x = document.getElementById("title");
-    if (x.onclick) {
-        window.open("https://bladeandsoul.com/");
-    }
-}
-function unhide() {
-    var x = document.getElementById("txt");
-    if (x.onpointerenter) {
-        x.style.visibility = "hidden";
-    }
-    else {
-        x.style.visibility = "visible";
-    }
-}
-function hide() {
-    var x = document.getElementById("txt");
-    if (x.onpointerleave) {
-        x.style.visibility = "hidden";
-    }
-    else {
-        x.style.visibility = "hidden";
-    }
-}
-function Stats() {
-    var x = document.getElementById("Sho");
-    if (x.onclick) {
-        window.open("http://eu-bns.ncsoft.com/ingame/bs/character/profile?c=shoufumii%20&s=202");
-    }
-}
-function WikiKuni() {
-    var x = document.getElementById("KuniWiki");
-    if (x.onclick) {
+$(function() {
+    $("#KuniWiki").add($("#KuniWiki2")).click(function() {
         window.open("https://tekken.fandom.com/wiki/Kunimitsu_II");
-    }
-}
-function WikiKazumi() {
-    var x = document.getElementById("KazumiWiki");
-    if (x.onclick) {
-        window.open("https://tekken.fandom.com/wiki/Kazumi_Mishima")
-    }
-}
+    });
+});
+$(function() {
+    $("#KazumiWiki").click(function() {
+        window.open("https://tekken.fandom.com/wiki/Kazumi_Mishima");
+    });
+});

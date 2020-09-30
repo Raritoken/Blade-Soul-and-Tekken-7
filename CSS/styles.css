@@ -2,68 +2,16 @@ body{
     background: cornflowerblue;
     overflow-x: hidden;
 }
-.Title{
-    margin-left: 50%;
-    transform: translateX(-50%);
+.TekkenTitle{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48pt;
+    color:red;
+    -webkit-text-stroke: 1px 1px black;
     text-shadow: 2px 2px black;
-    width: fit-content;
-    color: lightcyan;
-    -webkit-text-stroke: 1px black;
-    position: relative;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 36pt;
-}
-.Title:hover{
-    color: rgb(255, 0, 0);
-    -webkit-text-stroke: 1px black;
-    cursor: pointer;
-    font-size: 34pt;
-}
-.ImgBnS{
-    position: relative;
-    width: 350px;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: width 500ms;
-    border-radius: 20px;
-}
-.ImgBnS:hover{
-    cursor: pointer;
-    border: 5px solid red;
-    border-radius: 20px;
-    width: 300px;
-}
-.ImgBnS:active{
-    border: 5px solid red;
-    border-radius: 20px;
-    width: 200px;
-}
-.txt{
-    font-family: serif;
-    font-size: 16pt;
-    visibility: visible;
-    text-align: center;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    color: red;
-    -webkit-text-stroke: 0.1px black;
-    width: fit-content;
-    background: lightblue;
-    border: 5px solid green;
-    border-radius: 20px;
-    padding: 1vw 2vw;
-}
-.IMG{
-    text-align: center;
     width: auto;
-    color: red;
-    -webkit-text-stroke: 1px black;
-    text-shadow: 1px 1px black;
     padding: 1vw 2vw;
     border-radius: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 36pt;
     background: rgba(122, 20, 206, 0.664);
 }
 .img1, .img2, .img3{
@@ -111,8 +59,8 @@ body{
     height: 731.25px; 
     margin-left: 15%;
 }
-.ArtKuni{
-    margin-left: 15%; 
+article{
+    margin-left: 15%;
     margin-right: 35%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14pt;
@@ -122,28 +70,14 @@ body{
     margin-left: 15%;
     margin-right: 15%;
 }
+.KuniVid2{
+    width: 960px;  
+    height: 540px;
+    margin-left: 15%;
+}
 
 
 @media only screen and (max-width: 1440px){
-    .Title{
-        font-size: max-width/53.3pt;
-        text-shadow: 0.5px 0.5px black;
-    }
-    .ImgBnS{
-        position: relative;
-        width: max-width/5.5;
-        transition: width 500ms;
-        border-radius: 20px;
-    }
-    .ImgBnS:hover{
-        border: 5px solid red;
-        border-radius: 20px;
-        width: max-width*1.75;
-    }
-    .txt{
-        visibility: visible;
-        width: 65%;
-    }
     .img1, .img2, .img3{
         overflow-x: hidden;
         width: 30vw;
@@ -156,12 +90,17 @@ body{
         height: 506.25px;
         margin-left: 5%;
     }
-    .ArtKuni{
+    article{
         margin-left: 5%;
         margin-right: 5%;
     }
     .KuniFace{
         width: 800px;
+        margin-left: 5%;
+    }
+    .KuniVid2{
+        width: 800px;  
+        height: 450px;
         margin-left: 5%;
     }
 }
