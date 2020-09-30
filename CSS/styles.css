@@ -1,8 +1,6 @@
 body{
     background: cornflowerblue;
     overflow-x: hidden;
-    margin-right: none;
-    margin-left: none;
 }
 .Title{
     margin-left: 50%;
@@ -84,14 +82,19 @@ body{
     84.8%{transform: translateX(-35vw);} 
     100%{transform: translateX(-65vw);}
 }
+.img1:hover, .img2:hover, .img3:hover{
+    cursor: pointer;
+    border: 5px solid rgba(255, 0, 120, 0.75);
+    border-radius: 20px;
+    width: 28vw;
+}
 .scrlIMG{
-    border: 5px solid red;
+    border: 5px solid rgba(255, 0, 120, 0.75);
     border-left: none;
     border-right: none;
     border-radius: 20px;
     padding: 1vw 2vw;
     background-color: black;
-    color: red;
     display: block;
     overflow-x: hidden;
 }
@@ -104,8 +107,8 @@ body{
     text-shadow: 2px 2px black;
 }
 .KuniVid{ 
-    width: 1290px; 
-    height: 760px; 
+    width: 1300px; 
+    height: 731.25px; 
     margin-left: 15%;
 }
 .ArtKuni{
@@ -143,8 +146,7 @@ body{
     }
     .img1, .img2, .img3{
         overflow-x: hidden;
-        width: 31vw;
-        height: 300/16*9px;
+        width: 30vw;
     }
     .KuniTitle{
         font-size: 28pt;

@@ -28,3 +28,15 @@ function Stats() {
         window.open("http://eu-bns.ncsoft.com/ingame/bs/character/profile?c=shoufumii%20&s=202");
     }
 }
+function WikiKuni() {
+    var x = document.getElementById("KuniWiki");
+    if (x.onclick) {
+        window.open("https://tekken.fandom.com/wiki/Kunimitsu_II");
+    }
+}
+function WikiKazumi() {
+    var x = document.getElementById("KazumiWiki");
+    if (x.onclick) {
+        window.open("https://tekken.fandom.com/wiki/Kazumi_Mishima")
+    }
+}
