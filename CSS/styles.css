@@ -82,12 +82,14 @@ article{
         margin-right: 5%;
     }
     .KuniFace{
-        width: 800px;
+        width: 850px;
+        height: 478.125px;
         margin-left: 5%;
+        margin-right: 5%;
     }
     .KuniVid2{
-        width: 800px;  
-        height: 450px;
+        width: 850px;
+        height: 478.125px;
         margin-left: 5%;
     }
 }
