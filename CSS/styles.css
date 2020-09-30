@@ -62,6 +62,23 @@ article{
     height: 540px;
     margin-left: 15%;
 }
+.BTT{
+    display: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    position: fixed;
+    padding: 1vw 2vw;
+    border: 1px transparent;
+    border-radius: 20px;
+    color: white;
+    background: orange;
+    left: 90%;
+    top: 90%;
+}
+.BTT:hover{
+    cursor: pointer;
+    background: rgba(255, 0, 120, 0.75);
+}
 
 
 @media only screen and (max-width: 1440px){
@@ -91,5 +108,11 @@ article{
         width: 850px;
         height: 478.125px;
         margin-left: 5%;
+    }
+    .BTT{
+        padding: 2vw 4vw;
+        font-size: 36pt;
+        left: 75%;
+        top: 93%;
     }
 }
