@@ -1,18 +1,6 @@
 body{
-    background: cornflowerblue;
+    background: rgb(0, 0, 0);
     overflow-x: hidden;
-}
-.TekkenTitle{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 48pt;
-    color:red;
-    -webkit-text-stroke: 1px 1px black;
-    text-shadow: 2px 2px black;
-    width: auto;
-    padding: 1vw 2vw;
-    border-radius: 20px;
-    background: rgba(122, 20, 206, 0.664);
 }
 .img1, .img2, .img3{
     overflow-x: hidden;
@@ -50,9 +38,7 @@ body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 36pt;
-    color: rgb(120, 0, 190);
-    -webkit-text-stroke: 1px 1px black;
-    text-shadow: 2px 2px black;
+    color: rgba(255, 0, 120, 0.75);
 }
 .KuniVid{ 
     width: 1300px; 
@@ -60,6 +46,7 @@ body{
     margin-left: 15%;
 }
 article{
+    color: white;
     margin-left: 15%;
     margin-right: 35%;
     font-family: Georgia, 'Times New Roman', Times, serif;
