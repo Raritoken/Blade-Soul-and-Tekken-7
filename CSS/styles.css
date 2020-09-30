@@ -2,6 +2,7 @@ body{
     background: cornflowerblue;
     overflow-x: hidden;
     margin-right: none;
+    margin-left: none;
 }
 .Title{
     margin-left: 50%;
