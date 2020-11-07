@@ -3,6 +3,12 @@ $(function() {
         window.open("https://tekken.fandom.com/wiki/Kunimitsu_II");
     });
 });
+function direct() {
+    var x = document.getElementById("KazumiWiki");
+    if (x.onclick) {
+        window.open("https://tekken.fandom.com/wiki/Kazumi_Mishima");
+    }
+};
 $(function() {
     $("#KazumiWiki").click(function() {
         window.open("https://tekken.fandom.com/wiki/Kazumi_Mishima");
